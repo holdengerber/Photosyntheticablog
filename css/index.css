@@ -415,7 +415,7 @@ text-shadow: 2px 2px #ffffff;}
   overflow: hidden;
 }
 
-#featuredblog:hover {transform:scale(1.02,1.02);
+#featuredblog:hover {transform:scale(1.01,1.01);
   transition: 1s;}
 
 .blogpost {
