@@ -415,6 +415,9 @@ text-shadow: 2px 2px #ffffff;}
   overflow: hidden;
 }
 
+#featuredblog:hover {transform:scale(1.02,1.02);
+  transition: 1s;}
+
 .blogpost {
   background: white;
   border: solid 5px #55A603;
