@@ -578,6 +578,6 @@ font-size: 18px !important;}
 
   .selectedlink {width: 80%;
     height: 1px;
-  background: #55A603;
+  font-weight: bold !important;
 margin-left: auto;
 margin-right: auto;}
