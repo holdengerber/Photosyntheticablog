@@ -549,12 +549,23 @@ font-size: 18px !important;}
     border-top: .3em solid;
     border-right: .3em solid transparent;
     border-left: .3em solid transparent;
-    float: right;
+    position: absolute;
+    left: 80%;
     margin-top: 12px;
 }
 
-@media only screen and (max-width: 575px)  {
-  .mobileblankspace {height: 25px !important;}}
+@media only screen and (max-width: 600px)  {
+.dropdown-toggle::after {
+  left: 90% !important;
+}}
+
+@media only screen and (max-width: 980px) and (min-width: 650px)  {
+  .mobileblankspace {height: 15px !important;}}
+
+  @media only screen and (max-width: 950px) {
+  .mobileblankspace {height: 35px !important}}
+
+  @media only screen and (max-width: 800px) and (min-width: 570px)  {.dropdown-toggle::after {display:none !important;}}
 
   .divisionline {
     height: 1px;
