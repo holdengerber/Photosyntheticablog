@@ -533,8 +533,6 @@ font-size: 18px !important;}
   .textalter {font-size: 18px !important;
   font-weight: 300 !important;}
 
-  .selectedlink p2 {font-weight: bold !important;}
-
   .dropdown-toggle::after {
     display: inline-block;
     width: 0;
@@ -577,3 +575,9 @@ font-size: 18px !important;}
 
   #footer a:hover {color: white;
   text-decoration: none;}
+
+  .selectedlink {width: 80%;
+    height: 1px;
+  background: #55A603;
+margin-left: auto;
+margin-right: auto;}
