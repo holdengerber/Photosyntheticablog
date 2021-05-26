@@ -533,7 +533,7 @@ font-size: 18px !important;}
   .textalter {font-size: 18px !important;
   font-weight: 300 !important;}
 
-  .selectedlink {font-weight: bold;}
+  .selectedlink p2 {font-weight: bold !important;}
 
   .dropdown-toggle::after {
     display: inline-block;
@@ -565,3 +565,15 @@ font-size: 18px !important;}
 
   .bi:hover {fill: #247000;
   cursor: pointer !important;}
+
+  #footer {background: #034001;
+    height: 100%;
+  text-align: center;}
+
+  #footer p2 {color: white;
+    font-weight: 300;}
+
+  #footer a {font-size: 50px !important;}
+
+  #footer a:hover {color: white;
+  text-decoration: none;}
