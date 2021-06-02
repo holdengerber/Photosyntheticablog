@@ -14,124 +14,140 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body> 
-    <section class="bgimage">
-        <div class="container-fluid" id="navbackground">
+
+<!--Desktop Navigation Logo !-->
+    <section id="herobg">
+        <div class="container-fluid" id="navBackground">
             <nav class="navbar navbar-expand-md">
                 <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="https://holdengerber.github.io/Photosynthetica/"><img src="images/photosynthetica.png" width="250px" height="auto"></a>
+                          <a class="nav-link" href="https://holdengerber.github.io/Photosynthetica/"><img src="images/photosynthetica.png" width="250px" height="auto"></a>
                         </li>
                     </ul>
                 </div>
+
+<!--Desktop Navigation Links !-->
                 <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><p2 style="font-weight: bold">BLOG</p2>
-                              <br><div class="selected"></div></a>
+                          <a class="nav-link" href="#"><p2 style="font-weight: bold">BLOG</p2>
+                            <br><div class="selected"></div></a>
                         </li>
                         <li class="nav-item">
-                          <p2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p2>
+                            <p2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p2>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="https://holdengerber.github.io/Photosyntheticasupport/"><p2>SUPPORT</p2></a>
+                            <a class="nav-link" href="https://holdengerber.github.io/Photosyntheticasupport/"><p2 style="color:black">SUPPORT</p2></a>
                         </li>
                     </ul>
-                </div>
-            </nav>
-            <!-- My Javascript Mobile Dropdown Navigation !-->
-            <a class="nav-link" href="https://holdengerber.github.io/Photosynthetica/"><img src="images/photosynthetica.png" width="260px" height="auto" id="logo"></a>
-    <a href="javascript:void(0)" class="hamburgerMenu"><div class="hamburger open"></div></a>
-        <div class="mobileNav"></a>
-          <form action="#" id="mobileNavItems">
-            <a href="https://holdengerber.github.io/Photosyntheticablog/"><h3 style="text-decoration:underline">BLOG</h3></a>
-          <a href="https://holdengerber.github.io/Photosyntheticasupport/"><h3>SUPPORT</h3></a>
-          </form>
+                 </div>
+              </nav>
+
+<!-- My Javascript Mobile Dropdown Navigation and Logo !-->
+        <a class="nav-link" href="https://holdengerber.github.io/Photosynthetica/"><img src="images/photosynthetica.png" width="260px" height="auto" id="logo"></a>
+             <a href="javascript:void(0)" class="hamburgerMenu"><div class="hamburger open"></div></a>
+          <div class="mobileNav"></a>
+            <form action="#" id="mobileNavItems">
+              <a href="https://holdengerber.github.io/Photosyntheticablog/"><h3>BLOG</h3></a>
+              <a href="https://holdengerber.github.io/Photosyntheticasupport/"><h3>SUPPORT</h3></a>
+            </form>
+          </div>
         </div>
-        </div>
-            <br>
-            <br>
-            <br>
-            <div class="blankspaceresponsive"></div>
-          <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 offset-lg-2 offset-md-2 offset-sm-2 offset-xs-2 blogmobile">
+        <br>
+        <div class="blankSpace"></div>
+
+<!-- Featured Blog Post !-->
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 offset-lg-2 offset-md-2 offset-sm-2 offset-xs-2 responsivePost">
               <br>
-              <div id="featuredblog">
+              <br>
+              <div id="featuredBlogPost">
                 <br>
                 <br>
                 <p1 style="color: #55A603">FEATURED POST</p1>
-              <br>
-            <br>
-            <br>
-          <h2>Why Indoor Plants Make You Feel Better</h2>
-          <br>
-          <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam eget sit mi, luctus eget scelerisque at. Quam volutpat vulputate ullamcorper quam. Amet, pellentesque viverra eleifend ullamcorper enim hac. Augue nibh orci risus ultrices enim semper.</p1>
-        <br>
-      <br>
-      <button type="button" class="btn readmore">READ MORE</button>
+                <br>
+                <br>
+                <br>
+                <h2>Why Indoor Plants Make You Feel Better</h2>
+                <br>
+                <p1>An indoor garden can be your refuge from the outside world, and for many people it is a source of great joy. Whether you live in a small apartment, or a large house, by introducing certain plants into your home, you will start to notice improvements to your health, and overall happiness.</p1>
+                <br>
+                <br>
+                <button type="button" class="btn readMore">READ MORE</button>
+                <br>
+                <br>
+                <br>
+              </div>
+            </div>
+        </div>
+  </section>
+
+  <section id="body">
     <br>
-  <br>
-<br></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="blankSpace"></div>
+    <div class="blankSpaceSmall"></div>
+    <div class="blankSpaceSmall"></div>
+
+<!-- Filters Dropdown !-->
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 offset-lg-2 offset-md-2 offset-sm-2 offset-xs-2 responsivePost">
+            <div class="blankSpaceSmall"></div>
+            <div class="dropdown">
+              <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <p1>Filters</p1>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Product Features</a>
+                <a class="dropdown-item" href="#">Houseplant Care</a>
+                <a class="dropdown-item" href="#">Plant Accessories</a>
+              </div>
+            </div>
+          </div>
+
+<!-- Search Bar !-->          
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 responsivePost">
+          <div class="blankSpaceSmall"></div>
+          <div class="input-group">
+            <input type="search" class="form-control rounder textalter" placeholder="Search all blog posts" aria-label="Search" aria-describedby="search-addon" />
+              <button type="button" class="btn search">SEARCH</button>
           </div>
         </div>
-        </section>
-        <section id="body">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="mobileblankspace"></div>
-        <div class="mobileblankspace"></div>
-        <div class="mobileblankspace"></div>
-        <div class="row">
-          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 offset-lg-2 offset-md-2 offset-sm-2 offset-xs-2 blogmobile">
-          <div class="dropdown">
-            <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <p1>Filters</p1>
-            </button>
-           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Product Features</a>
-              <a class="dropdown-item" href="#">Houseplant Care</a>
-              <a class="dropdown-item" href="#">Plant Accessories</a>
-            </div>
-          </div>
-          </div>
-          <div class="mobileblankspace"></div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 blogmobile">
-            <div class="input-group">
-              <input type="search" class="form-control rounder textalter" placeholder="Search all blog posts" aria-label="Search"
-                aria-describedby="search-addon" />
-              <button type="button" class="btn search">SEARCH</button>
-            </div>
-            </div></div>
+      </div>
+      <br>
+      
+<!-- Blog Post 1 !-->         
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 offset-lg-2 offset-md-2 offset-sm-2 offset-xs-2 responsivePost">
+          <br>
+          <div class="blogPostSmall">
             <br>
-            <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 offset-lg-2 offset-md-2 offset-sm-2 offset-xs-2 blogmobile">
-                <br>
-                <div class="blogpost">
-           <br>
-           <br>
-           <p5 style="color: #55A603">HOUSEPLANT CARE</p5>
-           <br>
-           <br>
-           <p3 style="color:#55A603">Fertilizer for Most Houseplants</p3>
-           <br>
-           <br>
-           <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet morbi et leo amet morbi ornare egestas elementum quis.</p1>
-           <br>
-           <br>
-           <button type="button" class="btn readmore">READ MORE</button>
-           <br>
-           <br>
-           <br>
-            </div>
             <br>
-            <div class="blogpostimage blue"><img src="images/planttrend.jpg" style="width: 100%; height: auto">
-              <div class="blogpadding">
+            <p5 style="color: #55A603">HOUSEPLANT CARE</p5>
+            <br>
+            <br>
+            <p3 style="color:#55A603">Fertilizer for Most Houseplants</p3>
+            <br>
+            <br>
+            <p1>In addition to water and carbon dioxide used in photosynthesis plants need 16 more elements in order to live. In this blog we’ll teach you all you need to know about plant nutrition and fertilizer.</p1>
+            <br>
+            <br>
+            <button type="button" class="btn readMore">READ MORE</button>
+            <br>
+            <br>
+            <br>
+          </div>
+          <br>
+
+<!-- Blog Post 2 !-->  
+          <div class="blogPostLarge blue">
+            <img src="images/planttrend.jpg" style="width: 100%; height: auto">
+              <div class="blogPostLargeContent">
                 <br>
                 <br>
                 <p5 style="color: #527AE2">HOUSEPLANT CARE - PLANT ACCESORIES</p5>
@@ -140,105 +156,123 @@
                 <p3 style="color:#527AE2">Plant Trends for 2021</p3>
                 <br>
                 <br>
-                <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet morbi et leo amet morbi ornare egestas elementum quis.</p1>
+                <p1>Come check out the hottest 2021 houseplants to join your jungle this year!</p1>
                 <br>
                 <br>
-                <button type="button" class="btn readmoreblue">READ MORE</button>
+                <button type="button" class="btn readMore-Blue">READ MORE</button>
                 <br>
                 <br>
                 <br>
-                 </div></div>
+              </div>
           </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 blogmobile">
+        </div>
+
+<!-- Blog Post 3 !-->  
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 responsivePost">
               <br>
-              <div class="blogpostimage blue">
+              <div class="blogPostLarge blue">
                 <img src="images/watering.jpg" style="width: 100%; height: auto">
-                <div class="blogpadding">
-                  <br>
+                  <div class="blogPostLargeContent">
+                    <br>
+                    <br>
+                    <p5 style="color: #527AE2">PRODUCT FEATURES</p5>
+                    <br>
+                    <br>
+                    <p3 style="color:#527AE2">Set Reminders to Water Your Plants!</p3>
+                    <br>
+                    <br>
+                    <p1>Remembering to keep up with all the tasks that keep your plants thriving can be difficult, but with Photosynthetica’s easy reminder system you’ll never miss a watering.</p1>
+                    <br>
+                    <br>
+                    <button type="button" class="btn readMore-Blue">READ MORE</button>
+                    <br>
+                    <br>
+                    <br>
+                  </div>
+              </div>
+              <br>
+
+ <!-- Blog Post 4 !-->               
+              <div class="blogPostSmall">
                 <br>
-                <p5 style="color: #527AE2">PRODUCT FEATURES</p5>
+                <br>
+                <p5 style="color: #55A603">PLANT ACCESSORIES</p5>
                 <br>
                 <br>
-                  <p3 style="color:#527AE2">Set Reminders to Water Your Plants!</p3>
-                  <br>
-                  <br>
-                  <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet morbi et leo amet morbi ornare egestas elementum quis.</p1>
-                  <br>
-                  <br>
-                  <button type="button" class="btn readmoreblue">READ MORE</button>
-                  <br>
-                  <br>
-                  <br>
-                   </div></div>
-         <br>
-         <div class="blogpost">
-          <br>
-          <br>
-          <p5 style="color: #55A603">PLANT ACCESSORIES</p5>
-          <br>
-          <br>
-          <p3 style="color:#55A603">Choose the Right Planter</p3>
-          <br>
-          <br>
-          <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Laoreet morbi et leo amet morbi ornare egestas elementum quis.</p1>
-          <br>
-          <br>
-          <button type="button" class="btn readmore">READ MORE</button>
-          <br>
-          <br>
-          <br>
-         </div></div>
+                <p3 style="color:#55A603">Choose the Right Planter</p3>
+                <br>
+                <br>
+                <p1>Picking the correct container for your houseplant can be a tricky decision, but we’re here to help you make the right call.</p1>
+                <br>
+                <br>
+                <button type="button" class="btn readMore">READ MORE</button>
+                <br>
+                <br>
+                <br>
+              </div>
+            </div>
           </div>
           <br>
           <br>
           <br>
           <br>
           <br>
+
+<!-- Page Navigation !-->  
           <div class="row">
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 offset-lg-2 offset-md-2 offset-sm-2 offset-xs-2" id="pagenav">
-          <div class="divisionline"></div>
-          <br>
-          <br>
-          <p1 style="color:black" class="pagenumber">FIRST</p1>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-arrow-left" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-          </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          <p1 style="color:black" class="pagenumber selectedlink">1</p1>&nbsp;&nbsp;&nbsp;<p1 style="color:black" class="pagenumber">2</p1>&nbsp;&nbsp;&nbsp;<p1 style="color:black" class="pagenumber">3</p1>&nbsp;&nbsp;&nbsp;<p1 style="color:black" class="pagenumber">...</p1>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-arrow-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-          </svg>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-          <p1 style="color:black" class="pagenumber">LAST</p1>
-          <br>
-          <br>
-          <br>
-          <div class="divisionline"></div>
-          <br>
-          <br>
-          <br>
-          <br>
-          </div></div>
-      </section>
-      <section id="footer">
-        <br>
-        <br>
-        <p2>Follow Us On:</p2>
-        <br>
-        <br>
-        <a href="#" class="fa fa-facebook" id="firsticon"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-instagram"></a>
-<br>
-<br>
-<br>
-<br>
-      </section>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 offset-lg-2 offset-md-2 offset-sm-2 offset-xs-2" id="pageNav">
+              <div class="separatorLine"></div>
+              <br>
+              <br>
+              <p1 style="color:black" class="pageNumber">FIRST</p1>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+              </svg>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              <p1 style="color:black" class="pageNumber selectedLink">1</p1>
+              &nbsp;&nbsp;&nbsp;
+              <p1 style="color:black" class="pageNumber">2</p1>
+              &nbsp;&nbsp;&nbsp;
+              <p1 style="color:black" class="pageNumber">3</p1>
+              &nbsp;&nbsp;&nbsp;
+              <p1 style="color:black" class="pageNumber">...</p1>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              <p1 style="color:black" class="pageNumber">LAST</p1>
+              <br>
+              <br>
+              <br>
+              <div class="separatorLine"></div>
+              <br>
+              <br>
+              <br>
+              <br>
+            </div>
+          </div>
+  </section>
+
+<!-- Page Navigation !-->  
+  <section id="footer">
+    <br>
+    <br>
+    <p2>Follow Us On:</p2>
+    <br>
+    <br>
+    <a href="#" class="fa fa-facebook" id="firsticon"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <br>
+    <br>
+    <br>
+    <br>
+  </section>
 
 <!-- My Javascript Mobile Navigation !-->
-    </body>
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
-<script src="js/index.js"></script>
-    </html>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
 </html>
