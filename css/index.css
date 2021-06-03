@@ -318,6 +318,47 @@
         border-radius: 5px 5px 5px 5px !important;
       }
 
+      .dropdown-menu {
+        width: 100%;
+      }
+
+      .btn-lg p1 {
+        color: #6c757d;
+        display: inline-block;
+        font-weight: 400;
+      }
+
+      .dropdown-toggle::after {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: .3em;
+        vertical-align: middle;
+        content: "";
+        border-top: .3em solid;
+        border-right: .3em solid transparent;
+        border-left: .3em solid transparent;
+        position: absolute;
+        left: 80%;
+        margin-top: 12px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .dropdown-toggle::after {
+          left: 90% !important;
+        }
+      }
+
+      @media only screen and (max-width: 800px) and (min-width: 570px)  {
+        .dropdown-toggle::after {
+          display:none !important;
+        }
+      }
+
+      .dropdown {
+        overflow: hidden;
+      }
+
 /* Search Button */
       .search {
         border-right: solid 1px #ced4d9 !important;
@@ -365,39 +406,6 @@
         opacity:.8;
       }
 
-/* Filters Dropdown */
-      .btn-lg p1 {
-        color: #6c757d;
-        display: inline-block;
-        font-weight: 400;
-      }
-
-      .dropdown-toggle::after {
-        display: inline-block;
-        width: 0;
-        height: 0;
-        margin-left: .3em;
-        vertical-align: middle;
-        content: "";
-        border-top: .3em solid;
-        border-right: .3em solid transparent;
-        border-left: .3em solid transparent;
-        position: absolute;
-        left: 80%;
-        margin-top: 12px;
-      }
-
-      @media only screen and (max-width: 600px) {
-        .dropdown-toggle::after {
-          left: 90% !important;
-        }
-      }
-
-      @media only screen and (max-width: 800px) and (min-width: 570px)  {
-        .dropdown-toggle::after {
-          display:none !important;
-        }
-      }
 
 /* Bottom Page Navigation */
       .separatorLine {
