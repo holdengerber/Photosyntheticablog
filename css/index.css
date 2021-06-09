@@ -356,11 +356,6 @@
         }
       }
 
-      .dropdown {
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
-
 /* Search Button */
       .search {
         border-right: solid 1px #ced4d9 !important;
