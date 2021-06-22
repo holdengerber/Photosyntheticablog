@@ -371,6 +371,7 @@
         color: #55A603 !important;
         padding-left: 40px !important;
         padding-right: 40px !important;
+        letter-spacing: 1px;
       }
 
       .search:hover {
@@ -390,18 +391,21 @@
         color: white !important;
         padding-left: 30px !important;
         padding-right: 30px !important;
+        letter-spacing: 1px;
       }
 
       .readMore:hover {
         opacity:.8;
       }
 
-      .readMore-Blue
-      {background: #527AE2 !important;
+      .readMore-Blue {
+        background: #527AE2 !important;
         border-radius: 50px 50px 50px 50px !important;
         color: white !important;
         padding-left: 30px !important;
-        padding-right: 30px !important;}
+        padding-right: 30px !important;
+        letter-spacing: 1px;
+      }
 
       .readMore-Blue:hover {
         opacity:.8;
