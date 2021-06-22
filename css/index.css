@@ -65,14 +65,24 @@
       }
 
       @media only screen and (max-width: 980px) and (min-width: 575px) {
-        .blankSpaceSmall {
+        .blankSpaceSmallResponsive {
           height: 55px !important;
           }
         }
 
       @media only screen and (max-width: 950px) {
-        .blankSpaceSmall {
+        .blankSpaceSmallResponsive {
           height: 35px !important;
+        }
+      }
+
+        .blankSpaceSmallestResponsive {
+          height: 35px !important;
+          }
+
+      @media only screen and (max-width: 600px) {
+        .blankSpaceSmallestResponsive {
+          height: 25px !important;
         }
       }
 
@@ -290,11 +300,11 @@
 
 /* Search Bar */
       .input-group {
-        height: 45px !important;
+        height: 50px !important;
       }
 
       .form-control {
-        height: 45px !important;
+        height: 50px !important;
         background: #eeeeee !important;
         font-size: 18px !important;
       }
@@ -312,7 +322,7 @@
       #dropdownMenuButton {background: #eeeeee !important;
         border: solid 1px #ced4d9 !important;
         width: 100%;
-        height: 45px !important;
+        height: 50px !important;
         color: #6c757d;
         text-align: left !important;
         border-radius: 5px 5px 5px 5px !important;
@@ -339,14 +349,14 @@
         border-right: .3em solid transparent;
         border-left: .3em solid transparent;
         position: absolute;
-        left: 80%;
+        left: 88%;
         margin-top: 12px;
         background: #EEEEEE;
       }
 
       @media only screen and (max-width: 600px) {
         .dropdown-toggle::after {
-          left: 90% !important;
+          left: 88% !important;
         }
       }
 
